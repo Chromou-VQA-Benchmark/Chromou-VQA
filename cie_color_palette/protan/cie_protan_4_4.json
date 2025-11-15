@@ -1,0 +1,12 @@
+{
+    "n_colors_on": 4,
+    "n_colors_off": 4,
+    "color_on0": "#ea010b",
+    "color_on1": "#b3370e",
+    "color_on2": "#ca8225",
+    "color_on3": "#01e744",
+    "color_off0": "#e6c23a",
+    "color_off1": "#82d73f",
+    "color_off2": "#d0641c",
+    "color_off3": "#ddf64b"
+}
