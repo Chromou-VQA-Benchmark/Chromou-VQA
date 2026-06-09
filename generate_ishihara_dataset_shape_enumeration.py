@@ -64,7 +64,6 @@ for i in range(GENERATION_START_INDEX, GENERATION_START_INDEX + NUM_SAMPLES):
     
     poly_img_name = f'shape_enumeration_{i}.png'
     poly_img_path = os.path.join(POLYGON_IMAGE_DIR, poly_img_name)
-    # print(f"Output path: {poly_img_path}")  # Debug print
     
     # Generate the polygon image with the assigned shapes
     cmd = ['python', 'generator_shape_enumeration.py'] + [str(shape) for shape in selected_shapes] + [poly_img_path]
